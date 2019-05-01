@@ -2,9 +2,14 @@
 
 /* Diagnostic Styling 
   * Change Background Color
+  * {
+    outline: 1px dotted black;
+}
   * Outline Elements
 */
 
-* {
-    outline: 1px dotted black;
+#stage {
+  background: #ccc;
+  height: 300px;
+  width: 600px;
 }
