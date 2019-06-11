@@ -76,17 +76,19 @@
   
  }
  
- #rabbit {
+ .rabbit {
  height:100px;
    width:80px;
    position:absolute;
  left: 490px;
    top:150px;
-     animation: bounce 2s infinite;
+     animation-duration: 3s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
    
  }
  
- #rabbit2 {
+ .rabbit2 {
  height:100px;
    width:80px;
    position:absolute;
