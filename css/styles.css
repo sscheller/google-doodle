@@ -9,7 +9,90 @@
 */
 
 #stage {
-  background: #ccc;
-  height: 300px;
-  width: 600px;
-}
+  background:#00e8e8;
+   height: 300px;
+   width: 600px;
+   position: relative;
+  transition: background-color 2s ease-out;
+ }
+ 
+ #stage:hover {
+   background-color: gray;
+   cursor: pointer;
+ }
+ 
+ 
+ h1 {
+   color: black;
+   transition: color 1s ease-out;
+   transition: color 1s ease-in;
+ }
+ h1:hover {
+ color: yellow;
+ cursor: pointer;
+  animation: tada 2.5s infinite;
+ 
+ }
+ 
+ #stage h1 {
+   position:absolute;
+ left: 130px;
+   top: 0px;
+   font-size: 6em;
+   font-family: 'Noto Serif', serif;
+ }
+ 
+ #grass1 {
+   height: 100px;
+   width:160px;
+   position:absolute;
+   bottom: 0;
+   right: 0;
+ }
+ 
+ #grass2 {
+   height: 100px;
+   width:160px;
+   position:absolute;
+   bottom: 0;
+   left: 0;
+ }
+ 
+ #grass3 {
+   height: 100px;
+   width:160px;
+   position:absolute;
+  left: 280px;
+   top: 200px;
+  
+ }
+ 
+ #grass4 {
+   height: 100px;
+   width:160px;
+   position:absolute;
+  left: 150px;
+   top: 200px;
+  
+ }
+ 
+ #rabbit {
+ height:100px;
+   width:80px;
+   position:absolute;
+ left: 490px;
+   top:150px;
+     animation: bounce 2s infinite;
+   
+ }
+ 
+ #rabbit2 {
+ height:100px;
+   width:80px;
+   position:absolute;
+ left: 10px;
+   top:150px;
+   animation: bounce 2.5s infinite;
+ }
+ 
+ 
